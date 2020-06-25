@@ -1,0 +1,46 @@
+{
+  "region": "us-east-1",
+  "cognito": {
+    "poolId": "us-east-1:f4b41a38-9ab1-4028-8c93-c0f7c08780a2",
+    "appUserPoolClientId": "4tijuqenb98np0ll9mvhu1pico",
+    "appUserPoolName": "us-east-1_4hBnRaHlp",
+    "appDomainName": "lexkwebkuikhackathonkidentitypoolconfigkbai850558774679.auth.us-east-1.amazoncognito.com",
+    "aws_cognito_region": "us-east-1",
+    "region": "us-east-1",
+    "appUserPoolIdentityProvider": ""
+  },
+  "lex": {
+    "botName": "WebUiOrderFlowers",
+    "botAlias": "$LATEST",
+    "initialText": "You can ask me for filling a form. Just type \"Fill a Form\" or click on the mic and say it.",
+    "initialSpeechInstruction": "Say 'Fill a Form' to get started.",
+    "reInitSessionAttributesOnRestart": false,
+    "region": "us-east-1"
+  },
+  "ui": {
+    "parentOrigin": "https://d3pq59ee6q8hkz.cloudfront.net",
+    "toolbarTitle": "Fill a Form",
+    "toolbarLogo": "",
+    "positiveFeedbackIntent": "Thumbs up",
+    "negativeFeedbackIntent": "Thumbs down",
+    "helpIntent": "Help",
+    "enableLogin": false,
+    "AllowSuperDangerousHTMLInMessage": true,
+    "shouldDisplayResponseCardTitle": false,
+    "hideInputFieldsForButtonResponse": false,
+    "pushInitialTextOnRestart": false,
+    "directFocusToBotInput": false,
+    "showDialogStateIcon": false
+  },
+  "polly": {
+    "voiceId": "Salli"
+  },
+  "recorder": {
+    "preset": "speech_recognition"
+  },
+  "iframe": {
+    "iframeOrigin": "https://d3pq59ee6q8hkz.cloudfront.net",
+    "shouldLoadIframeMinimized": true,
+    "iframeSrcPath": "/index.html#/?lexWebUiEmbed=true"
+  }
+}

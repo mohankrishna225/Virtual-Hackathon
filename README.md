@@ -4,4 +4,4 @@ Voice Form Filling Application built on AWS Serverless Architecture
 
 CloudFront URl : https://d3pq59ee6q8hkz.cloudfront.net/parent.html 
 
-!Architecture.png
+<img src="Architecture.png">
